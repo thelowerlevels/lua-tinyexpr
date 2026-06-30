@@ -1,8 +1,8 @@
+# Luarocks specific paths
 /config.*
 /src/luarocks/core/hardcoded.lua
 /testrun/*
 /lua_install
-# Stuff that pops up during development but shouldn't be in the repo (helps clean up `git status`)
 /build
 /build-binary
 /*.rock
@@ -18,3 +18,39 @@
 /luarocks-admin
 /.luarocks
 /.luacheckcache
+
+# Compiled Lua sources
+luac.out
+
+# Object files
+*.o
+*.os
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.def
+*.exp
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
